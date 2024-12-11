@@ -1,0 +1,282 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navigation{
+  background-color: #935634;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+.navs ul{
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
+}
+.navs ul li{
+  list-style: none;
+}
+.navs ul li a{
+  text-decoration: none;
+  color:#eeede1;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+.navs ul li a:hover{
+  color: #dcd4c0;
+  font-size: 20px;
+}
+.logo{
+  padding-left: 30px;
+  color: white;
+}
+.logo span{
+  color: #dcd4c0;
+}
+.home-page{
+  display: flex;
+}
+.img-text{
+  width: 50%;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+.img-text img{
+  width: 90%;
+  border-radius: 10px;
+  transition: all 1s;
+}
+.img-text img:hover{
+  box-shadow: 50px 0px 5px #935634;
+  transition: box-shadow 1s;
+  transform: translatex(40px);
+  transition:transform 1s;
+}
+.home-text{
+  margin-left: 20px;
+  margin-top: 180px;
+}
+.home-text h1{
+  transition: all 1s;
+  margin-bottom: 20px;
+  color: #935634;
+}
+.home-text h1:hover{
+  box-shadow: 5px 5px 10px #935634;
+  transition: box-shadow 1s;
+  transform: translatex(40px);
+  transition:transform 1s;
+}
+.home-text p{
+  width: 600px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.home-text span{
+  color: #935634;
+  font-weight: bold;
+  font-size: 20px;
+}
+.home-text button{
+  padding: 10px;
+  background-color: #935634;
+  border: none;
+  border-radius: 5px;
+  color: #eeede1;
+  font-size: 20px;
+  transition: all 1s;
+}
+.home-text button:hover{
+  background-color: #eeede1;
+  border-color: #935634;
+  border-width: 1px;
+  border-style: solid;
+  color: #935634;
+  transition: background-color 1s;
+  transform: translatex(20px);
+  transition:all 1s;
+}
+
+/* halkan waxaa ka bilaabmaya designka qeybta 2aad*/
+.img-product img{
+  width: 200px;
+  border-radius: 10px;
+}
+.img-product{
+  width: 50%;
+  transform: translatex(10px);
+  transition:all 1s;
+}
+.text-product{
+  width: 20%;
+  margin-left: 20px;
+}
+.text-product h2{
+  font-size: 40px;
+  color: #935634;
+  margin-bottom: 30px;
+}
+.text-product p{
+  line-height: 1.5;
+  font-weight: bold;
+}
+.btn-product{
+  padding: 10px;
+  background-color: #935634;
+  color: #dcd4c0;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 50px;
+  transition: all 1s;
+}
+.btn-product:hover{
+  background-color: #dcd4c0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #935634;
+  padding: 5px;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.product-container{
+  display: flex;
+  margin-top: 150px;
+  gap: 100px;
+  margin-bottom: 100px;
+  transform: translatex(200px);
+  transition:all 1s;
+
+}
+.product-container:hover{
+  transform: translatey(-10px);
+  transition:all 1s;
+}
+
+/* halkan waxaa ka bilaabmaya style products */
+#service{
+  margin-bottom: 100px;
+}
+
+#service p, h2{
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 100px;
+  
+}
+#service p{
+  margin-bottom: 0;
+  font-size: 25px;
+  color: #a7a5a5;
+  font-weight: bold;
+}
+#service h2{
+  margin-top: 5px;
+  font-size: 60px;
+  font-weight: 300;
+  color: #935634;
+}
+.services{
+  display: flex;
+  transition: all 1s;
+  gap: 10px;
+  padding: 100px;
+}
+.services:hover{
+  transform: translateX(50px);
+  gap: 30px;
+  transition: all 1s;
+  box-shadow: 5px 2px 50px black;
+}
+
+.services img{
+  width: 300px;
+  border-radius: 10px;
+  gap: 50px;
+}
+
+/* halkan waxaa ka bilaabmaya Stylinka qeybta Contac-ka*/
+#form{
+  background-color: #935634;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+#form h1{
+  padding-top: 20px;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+  text-align: left;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 23px;
+  margin-left: 90px;
+  padding-bottom: 50px;
+}
+form input{
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+form textarea{
+  font-size: 23px;
+  border-radius: 10px;
+  border: none;
+}
+.frm{
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 30px;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.frm:hover{
+  transform: scale(0.9);
+  box-shadow: 5px 2px 30px rgb(255, 255, 255);
+  transition: all 1s;
+  background-color: #190951;
+  color: white;
+}
+footer{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+footer:hover{
+  transform: translateX(50px);
+  transition: all 1s;
+
+
+}
+footer span:hover{
+  background-color: #935634;
+  box-shadow: 10px 10px 5px black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  transform: translatey(-50);
+  transition: all 1s;
+}
